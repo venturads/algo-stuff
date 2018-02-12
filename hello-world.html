@@ -46,15 +46,18 @@
 <div id="mainContent">
 <p id="helloText">?</p>
 <button id="clickButton" class="buttonStyle">click me</button>
+<p id="test">___</p>
 </div>
 <script> 
 var myButton = document.getElementById("clickButton");
 var myText = document.getElementById("helloText");
+var title = document.getElementById("new title");
 
 myButton.addEventListener('click', doSomething, false)
 
 function doSomething() {
 	myText.textContent = "hello, world!";
+	title.textContent = "test";
 }
 </script>
 
