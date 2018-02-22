@@ -12,5 +12,5 @@ let title = document.getElementById("test");
 // Enter info form
 function getForm(form){
     let fvar = form.fname.value;
-    document.getElementById('test').innerHTML = (fvar);
+    document.getElementById('test').innerHTML = ("Welcome: " + fvar);
 }
