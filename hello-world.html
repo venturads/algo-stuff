@@ -9,16 +9,16 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="mainContent" class="col-md-6">
-		<p id="helloText">?</p>
-			<button id="clickButton" class="buttonStyle label">click me</button>
-		<p id="test">___</p>
-	</div>
-	<div class="col-md-6">
-		<form name="myFrm" action="" method="get">
-			<input type="text" name="fname" class="form-control" placeholder="Enter first name."/>
-			<input type="button" name="btnSub" class="btn btn-default" value="Submit" onClick="getForm(this.form)"/>
-		</form>
+	<div class="col-md-12">
+		<div id="mainContent" class="col-lg-6">
+			<p id="test">Welcome: </p>
+		</div>
+		<div class="col-lg-6">
+			<form name="myFrm" action="" method="get">
+				<input type="text" name="fname" class="form-control" placeholder="Enter first name."/>
+				<input type="button" name="btnSub" class="btn btn-default" value="Submit" onClick="getForm(this.form)"/>
+			</form>
+		</div>
 	</div>
 	<script type="text/javascript" src="form.js"></script>
 </body>
