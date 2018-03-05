@@ -3,5 +3,5 @@ function getAr(form){
     for(let i=0;i<form.length;i++){
         console.log(n);
     }
-    alert(n);
+    document.getElementById("outa").innerHTML = n;
 }
