@@ -1,6 +1,6 @@
 let myButton = document.getElementById("clickButton");
 let myText = document.getElementById("helloText");
-let title = document.getElementById("test");
+let title = document.getElementById("out");
 
 //myButton.addEventListener('click', doSomething, false)
 
@@ -12,5 +12,5 @@ let title = document.getElementById("test");
 // Enter info form
 function getForm(form){
     let fvar = form.fname.value;
-    document.getElementById('test').innerHTML = ("Welcome: " + fvar);
+    document.getElementById('out').innerHTML = ("Welcome: " + fvar);
 }

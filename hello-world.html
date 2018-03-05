@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="col-md-12" id="mainContent">
-		<p id="test">Welcome: </p>
+		<p id="out"> - : </p>
 	</div>
 	<div class="col-md-12">
 		<form name="myFrm" action="" method="get">
@@ -18,8 +18,16 @@
 			<input type="button" name="btnSub" class="btn btn-default" value="Submit" onClick="getForm(this.form)"/>
 		</form>
 	</div>
-	
+	<br><br>
+	<div class="col-md-12">
+		<p class="alert alert-success">JavaScript reverse a string "split("").reverse().join("")</p>
+		<form name="palFrm" action="" method="get">
+			<input type="text" name="pali" class="form-control" placeholder="Value" />
+			<input type="submit" value="Make Palindrome" class="btn btn-primary" onClick="getPali(this.form)" />
+		</form>
+	</div>
 	<!-- javascript files-->
 	<script type="text/javascript" src="form.js"></script>
+	<script type="text/javascript" src="palindrome.js"></script>
 </body>
 </html>
