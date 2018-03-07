@@ -14,9 +14,3 @@ function getForm(form){
     let fvar = form.fname.value;
     document.getElementById('out').innerHTML = ("Welcome: " + fvar);
 }
-
-function getCal(form){
-    let fcal = form.vCal.value;
-    alert(fcal);
-    document.getElementById('outc').innerHTML = (fcal / 25.4);
-}
