@@ -1,4 +1,3 @@
-
 function getPali(form){
     let n = form.pali.value;
     n= n.split("").reverse().join("");

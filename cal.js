@@ -1,5 +1,5 @@
-function getCal(form){
-    let fcal = form.vCal.value;
-    alert(fcal);
-    document.getElementById('outc').innerHTML = (fcal);
+function getCali(form){
+    let n = form.vCa.value;
+    alert(n);
+    //document.getElementById('outc').innerHTML = (fcal);
 }
