@@ -1,4 +1,8 @@
-let el = document.getElementById("btnapi");
+const btnSend = function(){
+    alert("test");
+    getHtp.send();
+}
+document.getElementById("btnapi").addEventListener("click", btnSend);
 
 let getdata = "https://codepen.io/jobs.json";
 const getHtp = new XMLHttpRequest();
@@ -9,11 +13,3 @@ getHtp.onreadystatechange = function(){
         document.getElementById("api_out").innerHTML = "Company: " + getdata.jobs[0].company_name;
     }
 };
-const btnSend = function(){
-    alert("test");
-    getHtp.send();
-}
-
-if(el){
-    el.addEventListener("click", btnSend);
-}
