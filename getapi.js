@@ -1,10 +1,11 @@
 const btnSend = function(){
-    alert("test");
+    //alert("test");
     getHtp.send();
 }
 document.getElementById("btnapi").addEventListener("click", btnSend);
 
 let getdata = "https://codepen.io/jobs.json";
+getdata = "http://venturads.com/demo.txt";
 const getHtp = new XMLHttpRequest();
 getHtp.open("GET", getdata);
 getHtp.onreadystatechange = function(){
